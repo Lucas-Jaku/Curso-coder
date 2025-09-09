@@ -43,7 +43,7 @@ header {
 body {
     font-family: "Zen Dots", sans-serif;
     color: #F7F7F7;
-    background-color: #0F0E0E;
+    background: #0F0E0E;
     text-align: center;
 }
 
@@ -63,10 +63,15 @@ h2 {
 
 .fotomellino {
     width: 500px;
-    padding: 20px;
+    margin: 20px;
     border-radius: 84px 84px 84px 84px;
     -webkit-border-radius: 84px 84px 84px 84px;
     -moz-border-radius: 84px 84px 84px 84px;
+    border: 5px solid white;
+
+    &:hover {
+        border-color: #93DA97;
+    }
 }
 
 
