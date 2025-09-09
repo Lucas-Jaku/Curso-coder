@@ -1,0 +1,98 @@
+/*MQ*/
+/*----mobile----*/
+
+@media (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /*index*/
+    .fotomellino {
+        width: 400px;
+        padding: 20px;
+        border-radius: 84px 84px 84px 84px;
+        -webkit-border-radius: 84px 84px 84px 84px;
+        -moz-border-radius: 84px 84px 84px 84px;
+    }
+
+
+    /*galeria*/
+    .imgmap1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+
+        img {
+            width: 100%
+        }
+
+        iframe {
+            width: 100%;
+        }
+    }
+
+
+    .imgmap2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+
+        img {
+            width: 100%
+        }
+
+        iframe {
+            width: 100%
+        }
+
+    }
+
+
+    .imgmap3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+
+        img {
+            width: 100%
+        }
+
+        iframe {
+            width: 100%
+        }
+
+    }
+
+
+
+
+
+    .imgmap4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        img {
+            width: 100%
+        }
+
+        iframe {
+            width: 100%
+        }
+
+    }
+
+
+    /*discografia*/
+    iframe {
+        width: 100%;
+    }
+}
+
+/*----tablet----*/

@@ -1,0 +1,100 @@
+@use "./variables" as*;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+/*header*/
+
+header {
+    background-color: #93DA97;
+    text-align: right;
+
+    img {
+        width: 100px;
+        display: block;
+        margin-left: 0px;
+
+    }
+
+    a {
+        color: #0F0E0E;
+        text-decoration: none;
+        font-family: "Zen Dots", sans-serif;
+
+    }
+
+    .active {
+        text-decoration: underline;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        text-align: right;
+    }
+
+}
+
+
+/*main*/
+
+body {
+    font-family: "Zen Dots", sans-serif;
+    color: #F7F7F7;
+    background-color: #0F0E0E;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+p {
+    text-align: left;
+    padding-inline-start: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fotomellino {
+    width: 500px;
+    padding: 20px;
+    border-radius: 84px 84px 84px 84px;
+    -webkit-border-radius: 84px 84px 84px 84px;
+    -moz-border-radius: 84px 84px 84px 84px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #93DA97;
+
+    h4 {
+        color: #0F0E0E;
+        text-decoration: underline;
+        padding-top: 10px;
+    }
+}
+
+.finalpagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+    img {
+        width: 70px;
+    }
+}
+
+footer p {
+    text-align: right;
+    color: #0F0E0E;
+    padding: 20px;
+}

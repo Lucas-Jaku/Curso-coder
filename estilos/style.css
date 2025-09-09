@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 /* font-family: "Zen Dots", sans-serif;*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
 /*header*/
 
 header {
@@ -18,7 +25,7 @@ header img {
 }
 
 header a {
-    color: black;
+    color: #0F0E0E;
     text-decoration: none;
     font-family: "Zen Dots", sans-serif;
 
@@ -32,18 +39,13 @@ header a {
     text-align: right;
 }
 
-label {
-    padding-top: 20px;
-    
-}
-
 
 /*main*/
 
 body {
     font-family: "Zen Dots", sans-serif;
-    color: white;
-    background-color: black;
+    color: #F7F7F7;
+    background-color: #0F0E0E;
     text-align: center;
 }
 
@@ -65,8 +67,8 @@ h2 {
     width: 500px;
     padding: 20px;
     border-radius: 84px 84px 84px 84px;
--webkit-border-radius: 84px 84px 84px 84px;
--moz-border-radius: 84px 84px 84px 84px;
+    -webkit-border-radius: 84px 84px 84px 84px;
+    -moz-border-radius: 84px 84px 84px 84px;
 }
 
 iframe {
@@ -77,8 +79,8 @@ main img {
     width: 500px;
     padding-bottom: 20px;
     border-radius: 158px 158px 158px 158px;
--webkit-border-radius: 158px 158px 158px 158px;
--moz-border-radius: 158px 158px 158px 158px;
+    -webkit-border-radius: 158px 158px 158px 158px;
+    -moz-border-radius: 158px 158px 158px 158px;
 }
 
 .imgmap1 {
@@ -119,6 +121,11 @@ form h3 {
     padding-top: 30px;
 }
 
+label {
+    padding-top: 20px;
+
+}
+
 /*footer*/
 
 footer {
@@ -126,7 +133,7 @@ footer {
 }
 
 footer h4 {
-    color: black;
+    color: #0F0E0E;
     text-decoration: underline;
     padding-top: 10px;
 }
@@ -134,10 +141,10 @@ footer h4 {
 footer img {
     width: 70px;
 }
- 
+
 footer p {
     text-align: right;
-    color: black;
+    color: #0F0E0E;
     padding: 20px;
 }
 
@@ -149,90 +156,97 @@ footer p {
 }
 
 /*MQ*/
-/*----movile----*/
+/*----mobile----*/
 
 @media (max-width: 480px) {
 
-body {
-    overflow-x: hidden;
-}
+    body {
+        overflow-x: hidden;
+    }
 
-/*index*/
-.fotomellino {
-    width: 400px;
-    padding: 20px;
-    border-radius: 84px 84px 84px 84px;
--webkit-border-radius: 84px 84px 84px 84px;
--moz-border-radius: 84px 84px 84px 84px;
-}
-
-
-/*galeria*/
-.imgmap1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;
-}
-.imgmap1 img {
-    width: 100%
-}
-.imgmap1 iframe {
-    width: 100%;
-}
+    /*index*/
+    .fotomellino {
+        width: 400px;
+        padding: 20px;
+        border-radius: 84px 84px 84px 84px;
+        -webkit-border-radius: 84px 84px 84px 84px;
+        -moz-border-radius: 84px 84px 84px 84px;
+    }
 
 
+    /*galeria*/
+    .imgmap1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
 
-.imgmap2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;   
-}
-.imgmap2 img {
-    width: 100%
-}
-.imgmap2 iframe {
-    width: 100%
-}
+    .imgmap1 img {
+        width: 100%
+    }
+
+    .imgmap1 iframe {
+        width: 100%;
+    }
 
 
 
-.imgmap3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;    
-}
-.imgmap3 img {
-    width: 100%
-}
-.imgmap3 iframe {
-    width: 100%
-}
+    .imgmap2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .imgmap2 img {
+        width: 100%
+    }
+
+    .imgmap2 iframe {
+        width: 100%
+    }
 
 
 
-.imgmap4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.imgmap4 img{
-    width: 100%
-}
-.imgmap4 iframe{
-    width: 100%
-    
-}
+    .imgmap3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .imgmap3 img {
+        width: 100%
+    }
+
+    .imgmap3 iframe {
+        width: 100%
+    }
 
 
-/*discografia*/
-iframe {
-    width: 100%;
-}
+
+    .imgmap4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .imgmap4 img {
+        width: 100%
+    }
+
+    .imgmap4 iframe {
+        width: 100%
+    }
+
+
+    /*discografia*/
+    iframe {
+        width: 100%;
+    }
 }
 
 
