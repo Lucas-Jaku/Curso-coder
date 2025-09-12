@@ -3,6 +3,13 @@
 
 @media (max-width: 480px) {
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: auto;
+    }
+
     body {
         overflow-x: hidden;
     }
